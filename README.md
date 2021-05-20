@@ -1,40 +1,8 @@
-
-<p align="center">
-  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>
-</p> 
-
-</br>
-
-## 📖 Sobre
-
-Projeto desenvolvido durante o Ignite da Rocketseat | Trilha ReactJS Chapter III.
-
-</br>
-
-## ⚙ Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- [Next.js](https://nextjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Sass](https://sass-lang.com)
-
-</br>
-
-## 💻 Projeto
-
-O ignews é uma aplicação onde o usuário pode ler sobre as movidades do React através de uma assinatura.
-
-</br>
-
 ## 🚀 Como executar
 
 - Clone o repositório
 ```
-git clone https://github.com/BrunoBecoski/Ignite-ReactJS-03-ignews.git
+git clone https://github.com/BrunoBecoski/Ignite-ReactJS-07-tests-ignews.git
 ```
 - Instale as depêndencias
 ```
@@ -48,4 +16,3 @@ yarn dev
 ```
 http://localhost:3000
 ```
-# Ignite-ReactJS-07-tests-ignews
