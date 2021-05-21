@@ -4,7 +4,7 @@
 ```
 git clone https://github.com/BrunoBecoski/Ignite-ReactJS-07-tests-ignews.git
 ```
-- Instale as depêndencias
+- Instale as dependências
 ```
 yarn
 ```
