@@ -8,11 +8,7 @@ git clone https://github.com/BrunoBecoski/Ignite-ReactJS-07-tests-ignews.git
 ```
 yarn
 ```
-- Inicie o servidor
+- Rode os testes
 ``` 
-yarn dev
-```
-- Acesse no seu navegador
-```
-http://localhost:3000
+yarn test
 ```
