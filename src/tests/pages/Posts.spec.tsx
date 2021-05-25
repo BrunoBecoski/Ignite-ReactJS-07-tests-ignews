@@ -29,7 +29,8 @@ describe('Posts page', () => {
                 { type: 'heading', text: 'My new post'}
               ],
               content: [
-                { type: 'paragraph', text: 'Post excerpt'}
+                // { type: 'paragraph', text: 'Post excerpt'},
+                { type: '', text: ''}
               ],
             },
             last_publication_date: '04-01-2021',
@@ -46,7 +47,8 @@ describe('Posts page', () => {
           posts: [{
             slug: 'my-new-post',
             title: 'My new post',
-            excerpt: 'Post excerpt',
+            // excerpt: 'Post excerpt',
+            excerpt: '',
             updatedAt: '01 de abril de 2021'
           }]
         }

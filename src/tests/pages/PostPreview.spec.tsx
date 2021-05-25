@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { useSession } from 'next-auth/client';
 import { useRouter } from 'next/router';
 import { mocked } from 'ts-jest/utils';
-import Post, { getStaticProps } from '../../pages/posts/preview/[slug]';
+import Post, { getStaticPaths, getStaticProps } from '../../pages/posts/preview/[slug]';
 import { getPrismicClient } from '../../services/prismic';
 
 const post = {
@@ -79,5 +79,14 @@ describe('Post preview page', () => {
         }
       })  
     )
+  });
+
+  it('get static props', async () => {
+    const response = await getStaticPaths({})
+
+    expect(response).toEqual({
+      paths: [],
+      fallback: 'blocking'
+    })
   });
 });
